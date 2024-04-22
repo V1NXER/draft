@@ -1,0 +1,651 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #f2f9ff;
+  --bg-black-50: #e8dfec;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+  --skin--: rgb(189, 37, 37);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+.zero {
+  background-image: url(images/metal_surface_pattern_texture_4k_hd_texture-3840x2160.jpg);
+  background-size: 180vw;
+  background-repeat: no-repeat;
+  background-color: var(--bg-black-100);
+}
+
+.one {
+  background-image: url(images/black_white_suzuki_yamaha_hd_motorcycle-1920x1080.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  background-color: var(--bg-black-100);
+}
+
+.por {
+  background-image: url(images/bmw_motorrad_concept_link_scooter-3840x2160.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-color: var(--bg-black-100);
+}
+
+.payb {
+  background-image: url(images/adventure_bike_ktm_390_4k_hd_ktm-3840x2160.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-color: var(--bg-black-100);
+}
+
+.six {
+  background-image: url(images/white_ducati_899_panigale_motorcycle_4k_8k_hd_bike-7680x4320.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-color: var(--bg-black-100);
+}
+
+.pad {
+  margin-left: 20px;
+}
+
+.cont {
+  padding-right: 2%;
+  float: right;
+}
+
+.nav-two .nav-bar {
+  width: 100%;
+  height: 1.2rem;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  padding: 0 0 1.7% 2%;
+}
+
+.nav-two .nav-bar li {
+  float: left;
+  padding-left: 3.2%;
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.nav-two .nav-bar .logo {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-two .nav-bar .logo img {
+  position: relative;
+}
+
+.nav-two .nav-bar ul {
+  list-style-type: none;
+}
+
+.nav-two .nav-bar li a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.26rem;
+  color: rgb(0, 0, 0);
+}
+
+.nav-two .nav-bar li a.active {
+  color: var(--skin--);
+  border-bottom: 4px solid var(--skin--);
+  padding-bottom: 7%;
+}
+
+.nav-two .nav-bar li a.active:hover {
+  border-bottom: 4px solid var(--skin--);
+}
+
+.nav-two .nav-bar li a:hover {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  padding-bottom: 7%;
+}
+
+.nav-two .nav-bar .cont {
+  float: right;
+  margin-right: 1%;
+}
+
+.main-home {
+  margin-left: 25%;
+  margin-top: 7%;
+}
+
+.padd-30 {
+  padding-left: 30px;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.title .box {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  font-weight: 500;
+}
+
+.title .box .uno {
+  flex: 50%;
+  background-color: var(--skin--);
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: white;
+}
+
+.title .box .dos {
+  flex: 50%;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: var(--text-black-700);
+}
+
+.title .box .tres {
+  flex: 33.3%;
+  background-color: var(--skin--);
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: white;
+}
+
+.title .box .quatro {
+  flex: 33.3%;
+  background-color: white;
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: var(--text-black-700);
+}
+
+.title .box .cinco {
+  flex: 33.3%;
+  background-color: rgb(24, 69, 119);
+  padding: 10px 25px 10px 25px;
+  margin-right: 40px;
+  color: var(--bg-black-100);
+}
+
+.title .box .q {
+  flex: 50%;
+}
+
+.title .box .t {
+  flex: 50%;
+}
+
+.title .box .uno:hover {
+  background-color: rgb(114, 13, 13);
+}
+
+.title .box .dos:hover {
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.title .box .tres:hover {
+  background-color: rgb(114, 13, 13);
+}
+
+.title .box .quatro:hover {
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.title .box .cinco:hover {
+  background-color: rgb(14, 42, 75);
+}
+
+.title .container {
+  width: 40%;
+  background-color: rgba(226, 218, 218, 0.507);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 10px;
+  margin-left: 50%;
+  margin-top: 40px;
+}
+
+.title .container2 {
+  width: 40%;
+  background-color: rgba(226, 218, 218, 0.507);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 20px;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.title .container3 {
+  width: 40%;
+  background-color: rgba(226, 218, 218, 0.507);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 10px;
+  margin-left: 550px;
+  margin-top: 100px;
+}
+
+.title .container4 {
+  width: 40%;
+  background-color: rgba(41, 41, 41, 0.507);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 1.5%;
+  margin-left: 20%;
+  margin-top: 9%;
+}
+
+.title .container5 {
+  width: 40%;
+  background-color: rgba(41, 41, 41, 0.507);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 1.5% 4% 1.5% 1.5%;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+
+.title .container6 {
+  width: 40%;
+  background-color: rgba(53, 52, 52, 0.63);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 1.5% 10% 1.5% 1.5%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.title h1 {
+  font-size: 1.96rem;
+  letter-spacing: 10px;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+.about {
+  width: 25%;
+  height: 80%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.521);
+  position: fixed;
+  overflow: hidden;
+  padding-top: 1%;
+  margin-top: 6.5%;
+}
+
+.about h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.about p {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2rem;
+  word-wrap: break-word;
+  padding: 0 5% 0 5%;
+}
+
+.rubrics {
+  margin-top: 6%;
+}
+
+.rubrics h1 {
+  font-size: 250%;
+  font-weight: 350;
+  text-align: center;
+  color: rgb(86, 90, 94);
+}
+
+.rubrics .box {
+  display: flex;
+  padding: 0 300px 0 300px;
+  margin-bottom: 10%;
+}
+
+.rubrics .box .uno {
+  flex: 25%;
+  background-image: url(images/p1.jpg);
+  background-size: 100%;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .dos {
+  flex: 25%;
+  background-image: url(images/p2.jpg);
+  background-size: 100%;
+  margin: 0 15px 0 15px;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .tres {
+  flex: 25%;
+  background-image: url(images/p3.jpg);
+  background-size: 100%;
+  margin: 0 15px 0 15px;
+  background-repeat: no-repeat;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .quatro {
+  flex: 25%;
+  margin: 0;
+  background-image: url(images/p4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.rubrics .box .uno:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .dos:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .tres:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .quatro:hover p {
+  margin-top: 160%;
+}
+
+.rubrics .box .uno:hover h2 {
+  letter-spacing: 5px;
+}
+
+.rubrics .box .dos:hover h2 {
+  letter-spacing: 5px;
+}
+
+.rubrics .box .tres:hover h2 {
+  letter-spacing: 2px;
+}
+
+.rubrics .box .quatro:hover h2 {
+  letter-spacing: 5px;
+}
+
+.rubrics .box h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.247);
+  transition: all 2s;
+  font-weight: 400;
+}
+
+.rubrics .box p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  transition: all 1s;
+  margin-top: 170%;
+  padding-top: 10px;
+  height: 22%;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.dos {
+  background: url(images/yellow_black_ducati_scrambler_motorcycle_hd_bike-2560x1440.jpg);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-color: rgb(240, 236, 236);
+}
+
+.tre {
+  background: url(images/vander-films-4ldc6lB9oBw-unsplash.jpg);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-color: rgb(219, 219, 219);
+}
+
+.main-top .title-two .box {
+  display: flex;
+}
+
+.main-top .title-two .container {
+  width: 33.3%;
+  flex: 33.3%;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 150px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: all 1s;
+  transition-delay: 1.5s;
+}
+
+.main-top .title-two .container2 {
+  width: 33.3%;
+  flex: 33.3%;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 150px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: all 1s;
+  transition-delay: 1.5s;
+}
+.main-top .title-two .container3 {
+  width: 33.3%;
+  flex: 33.3%;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 150px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: all 1s;
+  transition-delay: 1.5s;
+}
+
+.main-top .title-two .containerlast {
+  width: 28.9%;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 10px;
+  margin: 150px 50px 150px 50px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: all 1s;
+  transition-delay: 1.5s;
+}
+
+.main-top .title-two .container:hover {
+  height: 1000px;
+}
+
+.main-top .title-two .container2:hover {
+  height: 1000px;
+}
+
+.main-top .title-two .container3:hover {
+  height: 1000px;
+}
+
+.main-top .title-two .containerlast:hover {
+  width: 70%;
+}
+
+.main-top .title-two .box h1 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main-top .title-two .box span {
+  font-size: 38px;
+}
+
+.main-top .title-two .box p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 0px 15px 0 15px;
+  text-align: justify;
+  position: relative;
+  opacity: 0;
+  transition: all 5s ease-in 4s;
+  transition: all 1.2s ease-out 2s;
+  transition-delay: 3s ease-in;
+  transition-delay: 0 ease-out;
+}
+
+.main-top .title-two .container:hover p {
+  opacity: 100%;
+  padding-top: 50px;
+}
+
+.main-top .title-two .container2:hover p {
+  opacity: 100%;
+  padding-top: 50px;
+}
+
+.main-top .title-two .container3:hover p {
+  opacity: 100%;
+  padding-top: 50px;
+}
+
+.main-top .title-two .containerlast:hover p {
+  opacity: 100%;
+  padding-left: 500px;
+}
+
+.main-top .title-two .containerlast img {
+  float: left;
+}
+
+.main-top .t50 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.main-top .t20 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  color: white;
+  background-color: #0000004f;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: center;
+  margin: 150px 300px 0 300px;
+}
+
+.main-top .t50 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.911);
+  background-color: rgba(255, 255, 255, 0.267);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: center;
+  margin: 150px 300px 0 300px;
+}
+
+.main-top .title-two .box .pa {
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: fixed;
+  padding: 100px 15px 0 15px;
+  text-align: justify;
+  position: relative;
+  opacity: 0;
+  transition: all 5s ease-in 4s;
+  transition: all 1.2s ease-out 2s;
+  transition-delay: 3s ease-in;
+  transition-delay: 0 ease-out;
+}
